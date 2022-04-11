@@ -192,7 +192,8 @@ etc.
 
 <details>
 
-### GenSMBIOS
+<summary><strong>GenSMBIOS</strong></summary>
+
 We use script [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) to create fake serial number, UUID and MLB numbers. **This step is essential to have working iMessage, so do not skip it!**
 
 The process is the following:
@@ -203,7 +204,12 @@ The process is the following:
 - Choose option 3, and enter ```MacBookPro15,2``` as the machine type.
 - Press Q to quit. Your config now should contain the requied serials.
 
-### Enter the proper ROM value
+</details>  
+
+<details>
+
+<summary><strong>Enter the proper ROM value</strong></summary>
+
 Using Plist editor [ProperTree](https://github.com/corpnewt/ProperTree) to add serials and the computer's MAC address to the config.plist file. **This step is also essential to have a working iMessage, so do not skip it**. You have to change the MAC address value in the config.plist at
 
 ```PlatformInfo -> Generic -> ROM```
