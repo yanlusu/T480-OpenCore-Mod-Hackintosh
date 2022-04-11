@@ -1,6 +1,6 @@
 # T480-OpenCore-Mod-Hackintosh
 
-<img align="right" src="https://github.com/EETagent/T480-OpenCore-Hackintosh/raw/master/Other/README_Resources/ThinkPad.gif" alt="T480 macOS" width="430">
+<img align="right" src="./assets/ThinkPad.gif" alt="T480 macOS" width="430">
 
 [![OpenCore-Mod](https://img.shields.io/badge/OpenCore-0.7.9-lightblue.svg)](https://github.com/acidanthera/OpenCorePkg)
 [![macOS-Stable](https://img.shields.io/badge/macOS-12.3-success.svg)](https://www.apple.com/macos/monterey/)
