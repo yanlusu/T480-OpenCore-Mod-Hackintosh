@@ -229,9 +229,10 @@ It's possible to unlock Advanced menu thus disable CFG Lock natively in UEFI + O
 
 |     Figure                                                                         | Note                     |
 | :--------------------------------------------------------------------------------: | ------------------------ |
+|<img src="./assets/bios-Advance-menu.jpg" alt="bios-Advance-menu.jpg" width="480">  | Bios Advanced Menu       |
 |<img src="./assets/ch341a.jpg" alt="SPI_Programmer_CH341a.jpg" width="480">         | SPI CH341A Programmer    |
 |<img src="./assets/bios_chip_position.jpg" alt="BIOS_CHIP_POSITION.jpg" width="480">| BIOS CHIP On MotherBoard |
-|<img src="./assets/WINBOND-W25Q128BV.jpg" alt="WINBOND-W25Q128BV.jpg" width="480">  | Model of BIOS CHIP        |
+|<img src="./assets/WINBOND-W25Q128BV.jpg" alt="WINBOND-W25Q128BV.jpg" width="480">  | Model of BIOS CHIP       |
 
 
 
