@@ -223,18 +223,23 @@ Delete the generic ```112233445566``` value, and enter your MAC address into the
 
 <details>
 
-<summary><strong>CFG Lock | Advanced menu</strong></summary>
+<summary><strong>CFG Lock</strong></summary>
 
 It's possible to unlock Advanced menu thus disable CFG Lock natively in UEFI + Other Advanced menu benefits. SPI Programmer CH341a is required, and following [Unlock BIOS Advanced Menu](https://github.com/digmorepaka/thinkpad-firmware-patches) to flash BIOS.
 
 |     Figure                                                                         | Note                     |
 | :--------------------------------------------------------------------------------: | ------------------------ |
-|<img src="./assets/bios-Advance-menu.jpg" alt="bios-Advance-menu.jpg" width="480">  | Bios Advanced Menu       |
 |<img src="./assets/ch341a.jpg" alt="SPI_Programmer_CH341a.jpg" width="480">         | SPI CH341A Programmer    |
 |<img src="./assets/bios_chip_position.jpg" alt="BIOS_CHIP_POSITION.jpg" width="480">| BIOS CHIP On MotherBoard |
 |<img src="./assets/WINBOND-W25Q128BV.jpg" alt="WINBOND-W25Q128BV.jpg" width="480">  | Model of BIOS CHIP       |
 
 
+
+<summary><strong>Advanced menu</strong></summary>
+| Main Menu | Sub1                   | Sub2                               | Sub3                              | Sub4                                                         |
+| --------- | ---------------------- | ---------------------------------- | --------------------------------- | ------------------------------------------------------------ |
+| Advanced  | >> Intel Advanced Menu | >> System Agent (SA) Configuration | >> Graphics Configuration         | DVMT Pre-Allocated 64M                                       |
+|           |                        | >> Power & Performance             | >> CPU - Power Management Control | >> CPU Lock Configuration (Last item, scroll up/down until you see it) CFG Lock Disabled |
 
 </details>
 
