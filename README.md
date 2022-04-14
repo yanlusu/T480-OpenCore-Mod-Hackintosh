@@ -244,3 +244,5 @@ https://github.com/hexart/T480-OpenCore-Hackintosh
 https://github.com/EETagent/T480-OpenCore-Hackintosh
 
 https://github.com/zexry619/Thinkpad-T480-Hackintosh-Dualboot
+
+https://github.com/benbender/x1c6-hackintosh
