@@ -234,8 +234,12 @@ It's possible to unlock Advanced menu thus disable CFG Lock natively in UEFI + O
 |<img src="./assets/WINBOND-W25Q128BV.jpg" alt="WINBOND-W25Q128BV.jpg" width="480">  | Model of BIOS CHIP       |
 
 
+</details>
+
+<details>
 
 <summary><strong>Advanced menu</strong></summary>
+
 | Main Menu | Sub1                   | Sub2                               | Sub3                              | Sub4                                                         |
 | --------- | ---------------------- | ---------------------------------- | --------------------------------- | ------------------------------------------------------------ |
 | Advanced  | >> Intel Advanced Menu | >> System Agent (SA) Configuration | >> Graphics Configuration         | DVMT Pre-Allocated 64M                                       |
