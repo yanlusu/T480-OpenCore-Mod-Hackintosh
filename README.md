@@ -1,5 +1,11 @@
 # T480-OpenCore-Mod-Hackintosh
 
+**DISCLAIMER**
+Read the entire README and Dortania guides before you start. I am not responsible for any damage.
+When you encounter bug or want to improve this repo, consider opening issue or pull request.
+If you find this bootloader configuration useful, consider giving it a star to make it more visible.
+
+
 <img align="right" src="./assets/ThinkPad.gif" alt="T480 macOS" width="430">
 
 [![OpenCore-Mod](https://img.shields.io/badge/OpenCore-0.7.9-lightblue.svg)](https://github.com/acidanthera/OpenCorePkg)
