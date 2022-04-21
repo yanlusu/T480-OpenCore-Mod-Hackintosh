@@ -10,7 +10,7 @@ If you find this bootloader configuration useful, consider giving it a star to m
 
 <img align="right" src="./assets/ThinkPad.gif" alt="T480 macOS" width="430">
 
-[![OpenCore-Mod](https://img.shields.io/badge/OpenCore-0.7.9-lightblue.svg)](https://github.com/acidanthera/OpenCorePkg)
+[![OpenCore-Mod](https://img.shields.io/badge/OpenCore-0.8.0-lightblue.svg)](https://github.com/acidanthera/OpenCorePkg)
 [![macOS-Stable](https://img.shields.io/badge/macOS-12.3-success.svg)](https://www.apple.com/macos/monterey/)
 [![Windows-Stable](https://img.shields.io/badge/Windows-10-success.svg)](https://www.microsoft.com/en-us/windows)
 
@@ -46,7 +46,7 @@ If you find this bootloader configuration useful, consider giving it a star to m
 | -------------- | ------------- |-------------------------------------------------------------------------|
 | macOS Monterey | 12.3.1(21E258)|[gibMacOS](https://github.com/corpnewt/gibMacOS)                         |
 | Windows 10     | 21H1          |[windows10](https://www.microsoft.com/en-us/software-download/windows10) |
-| OpenCore-Mod   | v0.7.9        |Mod OpenCore to boot windows with not applying acpi patching             |
+| OpenCore-Mod   | v0.8.0        |Mod OpenCore to boot windows with not applying acpi patching             |
 
 </details>
 
@@ -86,10 +86,10 @@ If you find this bootloader configuration useful, consider giving it a star to m
 
 |     Driver      | Version           |
 | :-------------: | ----------------- |
-|  AudioDxe.efi   | OpenCorePkg 0.7.9 |
+|  AudioDxe.efi   | OpenCorePkg 0.8.0 |
 |   HfsPlus.efi   | OcBinaryData      |
-| OpenCanopy.efi  | OpenCorePkg 0.7.9 |
-| OpenRuntime.efi | OpenCorePkg 0.7.9 |
+| OpenCanopy.efi  | OpenCorePkg 0.8.0 |
+| OpenRuntime.efi | OpenCorePkg 0.8.0 |
 
 </details>
 
@@ -254,6 +254,20 @@ It's possible to unlock Advanced menu thus disable CFG Lock natively in UEFI + O
 |           |                        | >> Power & Performance             | >> CPU - Power Management Control | >> CPU Lock Configuration (Last item, scroll up/down until you see it) CFG Lock Disabled |
 
 </details>
+
+<details>
+
+<summary><strong>config.plist</strong></summary>
+
+```xml
+			<key>AppleCpuPmCfgLock</key>
+			<false/>
+			<key>AppleXcpmCfgLock</key>
+			<false/>
+```
+
+</details>
+
 
 ##  Credits
 
