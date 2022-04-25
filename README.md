@@ -227,11 +227,11 @@ Delete the generic ```112233445566``` value, and enter your MAC address into the
 </details>
 
 
-## OpenCore MOD
+## OC MOD
 
 <details>
 
-<summary><strong>OpenCore MOD</strong></summary>
+<summary><strong>OC MOD</strong></summary>
 
 It's possible to bypass opencore acpi booting process, following steps:
 
