@@ -227,7 +227,24 @@ Delete the generic ```112233445566``` value, and enter your MAC address into the
 </details>
 
 
-## UEFI modding
+## OpenCore MOD
+
+<details>
+
+<summary><strong>OpenCore MOD</strong></summary>
+
+It's possible to bypass opencore acpi booting process, following steps:
+
+1. Download OpenCore Source Code zip package;
+2. unzip OpenCore Source Code;
+3. copy `patch_no_acpi.py` to root directory of OpenCore Source Code;
+4. cd ${OC_Source_Code_Root_Directory}, run `patch_no_acpi.py`;
+5. build OC using `build_oc.tool`;
+
+</details>
+
+
+## UEFI MOD
 
 <details>
 
