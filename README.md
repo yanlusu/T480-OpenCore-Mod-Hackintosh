@@ -46,7 +46,7 @@ If you find this bootloader configuration useful, consider giving it a star to m
 | -------------- | ------------- |-------------------------------------------------------------------------|
 | macOS Monterey | 12.3.1(21E258)|[gibMacOS](https://github.com/corpnewt/gibMacOS)                         |
 | Windows 10     | 21H1          |[windows10](https://www.microsoft.com/en-us/software-download/windows10) |
-| OpenCore-Mod   | v0.8.0        |Mod OpenCore to boot windows with not applying acpi patching             |
+| OpenCore-Mod   | v0.8.1        |Mod OpenCore to boot windows with not applying acpi patching             |
 
 </details>
 
